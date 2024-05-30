@@ -37,14 +37,14 @@ button {
     background-color: #f8f8f8;
 }
 
-.movie-poster {
+.etoile {
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.movie-info {
+.paper-movie {
     
     display: flex;
     flex-direction: column;
