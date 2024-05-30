@@ -16,7 +16,7 @@ async function recovery() {
                 <div class="block2">
                     <img src="${movie.Poster}" alt="${movie.Title} Poster">
                 </div>
-                <div class="info">
+                <div class="journal">
                     <h3>${movie.Title}</h3>
                     <p>${movie.Year}</p>
                     <a href="./zen2.html?id=${movie.imdbID}">En savoir plus</a>
