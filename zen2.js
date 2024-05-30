@@ -13,23 +13,23 @@ async function recovery() {
         fetchMoviesContainer.innerHTML = ''; 
 
         let movieDetails = `
-            <div class="container-fetch-plus">
-                <div class="movie-poster">
+            <div class="camion1">
+                <div class="etoile">
                     <img src="${data.Poster}" alt="movie poster">
                 </div>
-                <div class="movie-info">
-                    <h3 class="movie-title">${data.Title}</h3>
-                    <ul class="movie-misc-info">
-                        <li class="year">Year: ${data.Year}</li>
-                        <li class="rated">Ratings: ${data.Rated}</li>
-                        <li class="released">Released: ${data.Released}</li>
+                <div class="paper-movie">
+                    <h3 class="movie-t">${data.Title}</h3>
+                    <ul class="movie-m">
+                        <li class="y">Year: ${data.Year}</li>
+                        <li class="r">Ratings: ${data.Rated}</li>
+                        <li class="re">Released: ${data.Released}</li>
                     </ul>
-                    <p class="genre"><b>Genre:</b> ${data.Genre}</p>
-                    <p class="writer"><b>Writer:</b> ${data.Writer}</p>
-                    <p class="actors"><b>Actors:</b> ${data.Actors}</p>
-                    <p class="plot"><b>Plot:</b> ${data.Plot}</p>
-                    <p class="language"><b>Language:</b> ${data.Language}</p>
-                    <p class="awards"><b><i class="fas fa-award"></i></b> ${data.Awards}</p>
+                    <p class="g"><b>Genre:</b> ${data.Genre}</p>
+                    <p class="w"><b>Writer:</b> ${data.Writer}</p>
+                    <p class="ac"><b>Actors:</b> ${data.Actors}</p>
+                    <p class="pl"><b>Plot:</b> ${data.Plot}</p>
+                    <p class="la"><b>Language:</b> ${data.Language}</p>
+                    <p class="aw"><b><i class="fa"></i></b> ${data.Awards}</p>
                 </div>
             </div>
         `;
