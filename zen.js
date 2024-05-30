@@ -1,7 +1,7 @@
 
 async function recovery() {
     let question = document.getElementById("research-bar").value;
-    const url = `https://www.omdbapi.com/?type=movie&s=${question}&apikey=7815baba`;
+    const url = `https://www.omdbapi.com/?type=movie&s=${question}&apikey=402c0814`;
 
     try {
         const response = await fetch(url);
