@@ -3,7 +3,7 @@ async function recovery() {
     const params = new URLSearchParams(window.location.search);
     const productId = params.get('id');
 
-    const url = `https://www.omdbapi.com/?&type=movie&i=${productId}&apikey=7815baba`;
+    const url = `https://www.omdbapi.com/?&type=movie&i=${productId}&apikey=402c0814`;
 
     try {
         const response = await fetch(url);
