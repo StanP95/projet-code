@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-width: 80%;
+    min-height: 100vh;
+    
+}
+
+.block-final {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+
+
+}
+
+.block2 {
+
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.block1 {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.info {
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    margin: 1rem 0.5rem;
+    width: 21.6px;
+    height: 21.6px;
+    background-color: var(--yellow-color);
+    border-color: #171717;
+    border-radius: 25px;
+}
+
+.movie {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.movie:hover {
+    background-color: #f8f8f8;
+}
+
+
+
+/* Tablette */
+@media (min-width: 600px) {
+    .container {
+        flex-direction: row;
+        padding: 40px;
+    }
+
+    main {
+        min-width: 80%;
+        min-height: 100vh;
+    }
+}
+
+/* ordinateur */
+@media (min-width: 992px) {
+    .container {
+        max-width: 1000px;
+        padding: 60px;
+    }
+
+    main {
+        padding: 5rem;
+    }
+}
+
+/* grand ordinateur */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        padding: 80px;
+    }
+
+    main {
+        padding: 3rem;
+    }
+}
